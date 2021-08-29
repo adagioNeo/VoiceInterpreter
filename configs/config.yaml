@@ -1,0 +1,10 @@
+- filters: 128
+  repeat: 1
+  kernel: [11]
+  stride: [2]
+  dilation: [1]
+  dropout: 0.2
+  residual: false
+  separable: true
+  se: true
+  se_context_size: -1
